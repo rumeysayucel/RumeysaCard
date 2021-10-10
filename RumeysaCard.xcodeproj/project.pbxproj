@@ -7,18 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051227F52697127900A48851 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 051227F42697127900A48851 /* Pacifico-Regular.ttf */; };
-		051227F826971C0200A48851 /* pp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 051227F726971C0200A48851 /* pp.jpeg */; };
 		0512280026971E6A00A48851 /* InfoView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051227FF26971E6A00A48851 /* InfoView1.swift */; };
 		056F34C12696CDBB00414BF5 /* RumeysaCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F34C02696CDBB00414BF5 /* RumeysaCardApp.swift */; };
 		056F34C32696CDBB00414BF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056F34C22696CDBB00414BF5 /* ContentView.swift */; };
 		056F34C52696CDBE00414BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056F34C42696CDBE00414BF5 /* Assets.xcassets */; };
 		056F34C82696CDBE00414BF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056F34C72696CDBE00414BF5 /* Preview Assets.xcassets */; };
+		05E199652712DA7E00B25692 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05E199642712DA7E00B25692 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		051227F42697127900A48851 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
-		051227F726971C0200A48851 /* pp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pp.jpeg; path = ../../pp.jpeg; sourceTree = "<group>"; };
 		051227FF26971E6A00A48851 /* InfoView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView1.swift; sourceTree = "<group>"; };
 		056F34BD2696CDBB00414BF5 /* RumeysaCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RumeysaCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		056F34C02696CDBB00414BF5 /* RumeysaCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumeysaCardApp.swift; sourceTree = "<group>"; };
@@ -26,6 +23,7 @@
 		056F34C42696CDBE00414BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		056F34C72696CDBE00414BF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		056F34C92696CDBE00414BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E199642712DA7E00B25692 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +40,7 @@
 		051227F32697124E00A48851 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				051227F42697127900A48851 /* Pacifico-Regular.ttf */,
+				05E199642712DA7E00B25692 /* Pacifico-Regular.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -71,7 +69,6 @@
 				056F34C22696CDBB00414BF5 /* ContentView.swift */,
 				051227FF26971E6A00A48851 /* InfoView1.swift */,
 				056F34C42696CDBE00414BF5 /* Assets.xcassets */,
-				051227F726971C0200A48851 /* pp.jpeg */,
 				056F34C92696CDBE00414BF5 /* Info.plist */,
 				056F34C62696CDBE00414BF5 /* Preview Content */,
 			);
@@ -143,9 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				051227F52697127900A48851 /* Pacifico-Regular.ttf in Resources */,
+				05E199652712DA7E00B25692 /* Pacifico-Regular.ttf in Resources */,
 				056F34C82696CDBE00414BF5 /* Preview Assets.xcassets in Resources */,
-				051227F826971C0200A48851 /* pp.jpeg in Resources */,
 				056F34C52696CDBE00414BF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
